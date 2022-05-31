@@ -8,7 +8,12 @@
 import UIKit
 
 class RegisterController: UIViewController {
-
+    @IBOutlet weak var confirmedPassword: UITextField!
+    @IBOutlet weak var UserName: UITextField!
+    @IBOutlet weak var SignUpBtn: UIButton!
+    @IBOutlet weak var Emal: UITextField!
+    @IBOutlet weak var phoneNumber: UITextField!
+    @IBOutlet weak var password: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 

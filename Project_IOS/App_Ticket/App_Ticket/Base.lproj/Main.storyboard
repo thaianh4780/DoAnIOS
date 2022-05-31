@@ -79,6 +79,12 @@
                     <navigationItem key="navigationItem" title="Đăng Nhập" id="ikm-k1-zac">
                         <barButtonItem key="backBarButtonItem" title="Trở Về" id="AhO-Hr-4S8"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="Password" destination="Qtj-qM-hjb" id="Ufw-pX-SLu"/>
+                        <outlet property="SignIn" destination="PoT-XP-RMZ" id="KLz-nk-9Bo"/>
+                        <outlet property="SignUp" destination="UN5-8F-PE4" id="f5t-og-yix"/>
+                        <outlet property="UserName" destination="P4F-Lf-4Fq" id="vAc-J4-8Ys"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -183,6 +189,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Đăng Ký" id="J5A-Da-CPa"/>
+                    <connections>
+                        <outlet property="Emal" destination="l9e-bv-GXQ" id="wfV-jk-iUs"/>
+                        <outlet property="SignUpBtn" destination="lnk-NH-YM3" id="qIm-Tc-jto"/>
+                        <outlet property="UserName" destination="6c0-BI-2M8" id="H1C-ox-D37"/>
+                        <outlet property="confirmedPassword" destination="94V-vv-4qX" id="dzW-B5-hIl"/>
+                        <outlet property="password" destination="AWG-I9-6su" id="JVy-nQ-jbc"/>
+                        <outlet property="phoneNumber" destination="94V-vv-4qX" id="nvM-SE-GXl"/>
+                        <outlet property="userName" destination="xVp-09-Cjf" id="da2-Br-ODJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SJ0-np-MCj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -370,6 +385,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Trang Chủ" id="LKY-Eg-W24"/>
+                    <connections>
+                        <outlet property="HomeImage" destination="fKT-gY-8bX" id="PBw-br-qVs"/>
+                        <outlet property="Ip12Btn" destination="jIQ-7J-gYd" id="Usa-oZ-EhW"/>
+                        <outlet property="Ip13Btn" destination="jIQ-7J-gYd" id="cXd-ny-N7g"/>
+                        <outlet property="Ip6Btn" destination="oSj-Nl-Rjx" id="wV3-7u-xNH"/>
+                        <outlet property="MoreBtn" destination="F08-tB-nOD" id="dJX-H7-xrb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aKg-mb-Dt8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -413,6 +435,7 @@
                                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="21"/>
                                                         </buttonConfiguration>
                                                         <connections>
+                                                            <action selector="IpxBtn:" destination="5dW-F3-Obx" eventType="touchUpInside" id="oaw-At-d9a"/>
                                                             <segue destination="gXT-98-qkc" kind="show" id="qjW-zx-bMO"/>
                                                         </connections>
                                                     </button>
@@ -843,6 +866,7 @@
                     <navigationItem key="navigationItem" id="8wE-dx-aun"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UaN-V9-lZq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="5dW-F3-Obx" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-2639" y="35"/>
         </scene>
@@ -2558,10 +2582,10 @@ AyAgICAgICAgMjcwJA
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="7Aq-se-cLg">
-                                <rect key="frame" x="30" y="56" width="354" height="752"/>
+                                <rect key="frame" x="30" y="56" width="350" height="752"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="wSd-3D-YSY">
-                                        <rect key="frame" x="2" y="0.0" width="350" height="681"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="681"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="U4e-DM-CwP">
                                                 <rect key="frame" x="0.0" y="0.0" width="350" height="426"/>
@@ -2654,7 +2678,7 @@ AyAgICAgICAgMzUwJA
                                         </constraints>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rj6-Kj-wlI">
-                                        <rect key="frame" x="33.5" y="700" width="287" height="52"/>
+                                        <rect key="frame" x="31.5" y="700" width="287" height="52"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="52" id="6IH-IG-c2J"/>
@@ -2691,9 +2715,9 @@ AyAgICAgICAgMzUwJA
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="UiF-jM-jas"/>
+        <segue reference="QOj-4n-Kh3"/>
         <segue reference="1vU-3y-KeA"/>
-        <segue reference="Xjl-iz-8MR"/>
+        <segue reference="N3m-fH-6pR"/>
         <segue reference="aFo-x4-FsS"/>
         <segue reference="XgM-nf-dtZ"/>
         <segue reference="DK0-24-GYv"/>

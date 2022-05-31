@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		547DC23E2845A6C600C2FA2C /* MoreProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547DC23D2845A6C600C2FA2C /* MoreProductController.swift */; };
 		73218185283D189900E99316 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73218184283D189900E99316 /* LoginController.swift */; };
 		73218188283D189900E99316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73218186283D189900E99316 /* Main.storyboard */; };
 		7321818D283D189B00E99316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7321818B283D189B00E99316 /* LaunchScreen.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		547DC23D2845A6C600C2FA2C /* MoreProductController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreProductController.swift; sourceTree = "<group>"; };
 		7321817D283D189900E99316 /* App_Ticket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_Ticket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73218184283D189900E99316 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		73218187283D189900E99316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 		7393D4432843493C00FC3AC4 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				547DC23D2845A6C600C2FA2C /* MoreProductController.swift */,
 				73218184283D189900E99316 /* LoginController.swift */,
 				73E7947228426D0600DEF55C /* RegisterController.swift */,
 				73E794772842BEE700DEF55C /* HomeController.swift */,
@@ -284,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				547DC23E2845A6C600C2FA2C /* MoreProductController.swift in Sources */,
 				73E7947328426D0600DEF55C /* RegisterController.swift in Sources */,
 				7351F353283D1C9300ABB086 /* AppDelegate.swift in Sources */,
 				73E794882843376000DEF55C /* MyCollectionView.swift in Sources */,
